@@ -34,12 +34,12 @@ while True:
 
   else:
 
-    feelings = ""    
+    feelings = "sad"    
     for i in range(len(feelings_list)-1):
       feelings += feelings_list[i] + ", "
     feelings += "and " + feelings_list[-1]
     
-    encouragement = ""    
+    encouragement = "smile"    
     for j in range(len(encouragement_list)-1):
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
